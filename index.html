@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Max's Monster Truck Mayhem</title>
 
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111;font-family:Arial,sans-serif;touch-action:none}
+#game{display:block;width:100vw;height:100vh;background:#75c9ff}
+#hud{
+ position:fixed;top:12px;left:14px;right:14px;
+ display:flex;justify-content:space-between;
+ color:white;font-weight:900;font-size:18px;
+ text-shadow:2px 2px 3px #000;pointer-events:none
+}
+#jump{
+ position:fixed;right:22px;bottom:22px;
+ width:110px;height:110px;border-radius:55px;
+ border:5px solid white;
+ background:#e32222;color:white;
+ font-weight:900;font-size:22px;
+ box-shadow:0 5px 0 #8d1111,0 7px 14px #0008;
+}
+#jump:active{transform:translateY(4px);box-shadow:0 1px 0 #8d1111}
+#title{
+ position:fixed;top:12px;left:50%;transform:translateX(-50%);
+ color:#
